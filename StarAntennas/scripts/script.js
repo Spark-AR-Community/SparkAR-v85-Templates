@@ -28,7 +28,7 @@ function onReady(assets) {
 	const faceSignalX2 = FaceTracking.face(0).cameraTransform.x.expSmooth(96);
 	const faceSignalY = FaceTracking.face(0).cameraTransform.y.expSmooth(100);
 	const faceSignalY2 = FaceTracking.face(0).cameraTransform.y.expSmooth(96);
-	const scaleFactor = 300;
+	const scaleFactor = 3;
 
 	// Since all the joints are in an array now, we can loop to apply 
 	// the new rotation signal. Think of array as a list, and then the 
